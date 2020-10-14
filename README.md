@@ -1,4 +1,4 @@
-## DIPHA-wrappers-for-Python
+# DIPHA-wrappers-for-Python
 Python scripts for working with the persistence homology on images, using the software package DIPHA. 
 More information about DIPHA can be found here https://github.com/DIPHA/dipha.
 
@@ -6,7 +6,7 @@ The DIPHA software package comes with MATLAB functions to create the input files
 package is to provide Python alternatives to these functions because I wanted to run DIPHA through Python.
 
 
-# What's included:
+## What's included:
 1. **save_image_data.py**
 
   Contains the function *save_image_data* that takes in an image and
@@ -33,7 +33,7 @@ package is to provide Python alternatives to these functions because I wanted to
 MATLAB plotter and *plot_PD*, for comparison sanity checks after installing DIPHA.
 
 
-# Using these files:
+## Using these files:
 To use these files, it is assumed you have installed the DIPHA software on your machine. Instruction for this can be found
 here https://github.com/DIPHA/dipha.
 
