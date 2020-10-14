@@ -8,20 +8,24 @@ package is to provide Python alternatives to these functions because I wanted to
 
 # What's included:
 1. **save_image_data.py**
+
   Contains the function *save_image_data* that takes in an image and
   writes its data into a binary file for DIPHA to process.
 
 2. **load_persistance_diagram.py**
+
   Contains the function *load_persistence_diagram*
   which takes reads a processed DIPHA file and writes the information in a human
   readable numpy array.
   
 3. **image_to_persistence_diagram.py**
+
   Contains the function *im2PD* which takes an image,
   runs it through DIPHA, and outputs the persistence diagram information
   as a numpy array.
   
 4. **plot_persistence_diagram.py** 
+
   Contains the function *plot_PD* which takes an image and plots the (birth,death) points from
   its persistence diagram as a scatter plot in matplotlib.
   
